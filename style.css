@@ -1,0 +1,103 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border-radius: 100vmax;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.digit,.hand{
+    position: absolute;
+}
+
+.digit-12{
+    top: 1rem;
+    left: calc(50% - 8px);
+}
+.digit-01{
+    top: calc(16.6666667% - 2.5rem);
+    right: calc(16.6666667*2% - 2rem);
+}
+.digit-02{
+    right: calc(16.6666667% - 2rem);
+    top: calc(16.6666667*2% - 2.5rem);
+}
+
+.digit-03{
+    right: 1rem;
+    top: calc(50% - 16px);
+}
+.digit-04{
+    right: calc(16.6666667% - 2.5rem);
+    bottom: calc(16.6666667*2% - 2rem);
+}
+.digit-05{
+    bottom: calc(16.6666667% - 2rem);
+    right: calc(16.6666667*2% - 2.5rem);
+}
+
+.digit-06{
+    bottom: 1rem;
+    left: calc(50% - 8px);
+}
+
+.digit-07{
+    bottom: calc(16.6666667% - 2rem);
+    left: calc(16.6666667*2% - 2.5rem);
+}
+
+.digit-08{
+    left: calc(16.6666667% - 2.5rem);
+    bottom: calc(16.6666667*2% - 2rem);
+}
+
+.digit-09{
+    left: 1rem;
+    top: calc(50% - 16px);
+}
+.digit-10{
+    left: calc(16.6666667% - 2rem);
+    top: calc(16.6666667*2% - 2.5rem);
+}
+.digit-11{
+    top: calc(16.6666667% - 2.5rem);
+    left: calc(16.6666667*2% - 2rem);
+}
+
+.hand{
+    top: calc(50% - 16px);
+    left: calc(50% - 16px);
+    transform-origin: 1rem;
+    transform: translateX(-1rem);
+}
+
+.second-hand{
+    width: 220px;
+    height: 0.1rem;
+    background: red;
+    text-align: right;
+}
+
+.minute-hand{
+    width: 250px;
+    height: 0.1rem;
+    background: black;
+    text-align: right;
+
+}
+
+.hour-hand{
+    width: 180px;
+    height: 0.1rem;
+    background: black;
+    text-align: right;
+
+}
